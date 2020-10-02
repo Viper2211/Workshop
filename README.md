@@ -26,6 +26,8 @@ That just about summarizes all that workshop does. Here is a map of the "worksho
 Most of the code is self explanatory and I tried my best to be as memory efficient as possible. I still have a few more ideas about how to make the interpreter faster and more efficient, but I'll probably do it later.
 
 # Using Workshop
+Workshop code is written in a file named `main.ws`. Other file support will be added sooner or later
+
 The claw always carrys one bit (because it has an inbuilt production system). In the beginning of the program, it's current bit is set to `1`.
 
 ## Commands
