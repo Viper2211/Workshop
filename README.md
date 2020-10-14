@@ -1,5 +1,5 @@
 # Workshop
-A esoteric programming language based off of the `Factory` programming language.
+An esoteric programming language based off of the `Factory` programming language.
 
 A workshop program provides instructions for a virtual claw that moves around and interacts with different sections of the workshop. The language itself is operates in bits. 
 
