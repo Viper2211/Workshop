@@ -61,8 +61,17 @@ void special(uint8_t currentArea){
   }
 }
 
-int main(void) {
-  FILE* source = fopen("./main.ws","r");
+int main(int argc, char *argv[]) {
+  char* filename;
+
+  if (argc >= 1){
+    filename = argv[1];
+  } else {
+    printf("Usage : workshop <filename>\n");
+    exit(1);
+  }
+
+  FILE* source = fopen(filename,"r");
   Storage.storage = malloc(MAX_SIZE*sizeof(struct bit));
   uint8_t currentArea = STORAGE;
   currentBit.value = 1;
