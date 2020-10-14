@@ -26,8 +26,7 @@ That just about summarizes all that workshop does. Here is a map of the "worksho
 Most of the code is self explanatory and I tried my best to be as memory efficient as possible. I still have a few more ideas about how to make the interpreter faster and more efficient, but I'll probably do it later.
 
 # Using Workshop
-Workshop code is written in a file named `main.ws`. Other file support will be added sooner or later
-
+Workshop code is written in a file that ends with `.ws`.
 The claw always carrys one bit (because it has an inbuilt production system). In the beginning of the program, it's current bit is set to `1`.
 
 ## Commands
@@ -49,7 +48,7 @@ This command actives the _special_ ability of the current area. The special abil
 And that's about it
 
 ### Quick Note about Storage
-The storage section is a stack, as in, the first in, the last out. The max size of the storage can be changed by going to [this file](https://repl.it/@Viper2211/Workshop#src/common.h) and changing the `MAX_SIZE` macro to whatever you want the max size of your stack to be.
+The storage section is a stack, as in, the first in, the last out. The max size of the storage can be changed by going to `src/common.h` file and changing the `MAX_SIZE` macro to whatever you want the max size of your stack to be.
 
 # Credits
 - Workshop Interpreter - @Viper2211(Me)
